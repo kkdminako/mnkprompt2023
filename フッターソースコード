@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Email Footer</title>
+    <style>
+        .email-footer {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            color: #333;
+        }
+        .email-footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .email-footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-footer">
+        <p>このメールは〇〇サービスから送信されました。</p>
+        <p>ご質問がある場合は、<a href="mailto:support@example.com">support@example.com</a>までご連絡ください。</p>
+        <p><a href="https://www.example.com/unsubscribe">メール配信を停止する</a></p>
+    </div>
+</body>
+</html>
